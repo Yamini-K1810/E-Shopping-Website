@@ -1,0 +1,94 @@
+header{
+    display:flex;
+    height:120px;
+    background-color: goldenrod;
+    font-family: sans-serif;
+    color:black;
+    margin-left:10px;
+    margin-right:10px;
+    padding-left: 10px;
+    padding-top:10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_bar{
+    max-width:90vw;
+    display: inline-block;
+}
+#heading{
+    float: center;
+}
+#Men{
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size:20px;
+    font-family:'Calibri';
+}
+#Women{
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size:20px;
+    font-family: 'Calibri';
+}
+.home_button{
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size:20px;
+    font-family: 'Calibri';
+}
+.container{
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+.men_page{
+    width: 300px ;
+    float: left;
+    margin-left:20px;
+    margin-right:2px;
+    margin:10 100px;
+}
+.women_page{
+    width: 300px;
+    float: right;
+    margin-left:2px;
+    margin-right:20px;
+    margin: 10 100px;
+}
+#body_home{
+    line-height: 250px;
+    text-align:center;
+    color:rgb(255, 0, 34);
+    height:250px;
+}
+.title{
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium';
+    text-align:center;
+    background-color: goldenrod;
+}
+.dress1{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+.buttons{
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.reset_button{
+    position: fixed;
+    bottom: 50px;
+    left:750px;
+    cursor:pointer;
+    padding: 10px;
+    margin:5px;
+    size: 50px;
+}
+#text{
+    font-size: medium;
+    font-family: Verdana;
+}
